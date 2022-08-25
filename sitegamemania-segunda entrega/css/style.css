@@ -44,7 +44,7 @@ header{
     font-size: 20px;
     background-color: rgba(8, 64, 62, 0.5);
     padding: 25px;
-    height: 20px;
+    height: 15px;
     border-radius: 10px;
 }
 
@@ -91,3 +91,146 @@ header{
     font-size: 24px;
     text-decoration: none;
  }
+
+ main{
+    background-color: black;
+ }
+
+ .loja{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1300px;
+ }
+
+ .loja h1{
+    display: flex;
+    justify-content: center ;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    text-decoration: none;
+ }
+
+ .loja h2{
+    display: flex;
+    justify-content: center ;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+ }
+
+ .loja p{
+    display: flex;
+    justify-content: center ;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+ }
+
+ .box{
+    background-color: rgba(8, 64, 62, 0.5);
+    padding: 25px;
+    height: 213px;
+    width: 221px;
+
+ }
+
+ .produtos {
+    display: flex;
+    background-color: black;
+    align-items: center;
+    flex-direction: column;
+    height: 213px;
+    width: 221px;
+ }
+
+ .conteudo-loja-textos {
+    height: 249px;
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.eldenring{
+    height: 711px;
+    background-image: url(../img/elden\ ring.png);    
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.logofinal{
+    text-align: center;
+}
+
+footer{
+    background-color: black;
+    justify-content: space-between;
+    width: 100%;
+    height: 560px;
+}
+
+.dados{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    background-color: rgba(8, 64, 62, 0.5);
+    padding: 25px;
+    height: 50px;
+    width: 246px;
+}
+
+.contato{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    background-color: rgba(8, 64, 62, 0.5);
+    padding: 25px;
+    height: 50px;
+    width: 246px;
+}
+
+.atendimento{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    background-color: rgba(8, 64, 62, 0.5);
+    padding: 25px;
+    height: 50px;
+    width: 246px;
+}
+
+.ondeestamos{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    background-color: rgba(8, 64, 62, 0.5);
+    padding: 25px;
+    height: 50px;
+    width: 246px;
+}
+
+.redessociais{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    background-color: rgba(8, 64, 62, 0.5);
+    padding: 25px;
+    height: 50px;
+    width: 246px;
+}
+
+.fundo{
+    background-color: black;
+}
+
+.diagramacao{
+    text-align: center;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+}
