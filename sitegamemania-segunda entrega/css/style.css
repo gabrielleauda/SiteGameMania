@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0;
+    box-sizing; border-box;
+}
+
+header{
+    background-color: black;
+    height: 284px;
+}
+
+.menu a {
+    color: white;
+}
+
+.entrar-cadastar a{
+    color: white;
+}
+
+.container-grid {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    width: 1300px;
+    align-items: left;
+}
+
+.menu01{
+    display: flex;
+    justify-content: space-between;
+    width: 1300px;
+}
+.menu01 a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;;
+    font-size: 20px;
+    background-color: rgba(8, 64, 62, 0.5);
+    padding: 25px;
+    height: 20px;
+    border-radius: 10px;
+}
+
+.menu01 p{
+    color: rgba(204, 204, 204, 1);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    background-color: white;
+    padding: 25px;
+    height: 20px;
+    border-radius: 10px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    width: 1300px;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+}
+
+.banner {
+    height: 711px;
+    background-image: url(../img/stray.png);    
+    background-repeat: no-repeat;
+    background-position: center;
+}  
+
+.vejamais-banner {
+   display: flex;
+   justify-content: right ;
+}
+ 
+.vejamais-banner a{
+    display: flex;
+    justify-content: right ;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    text-decoration: none;
+ }
