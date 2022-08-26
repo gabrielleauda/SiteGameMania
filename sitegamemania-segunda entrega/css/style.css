@@ -141,7 +141,7 @@ header{
  .produtos {
     display: flex;
     background-color: black;
-    align-items: center;
+    text-align: center;
     flex-direction: column;
     height: 213px;
     width: 221px;
@@ -164,11 +164,13 @@ header{
 
 .logofinal{
     text-align: center;
+    position: relative;
+    top: 100px;
+    left: 0px;
 }
 
 footer{
     background-color: black;
-    justify-content: space-between;
     width: 100%;
     height: 560px;
 }
@@ -177,30 +179,56 @@ footer{
     color: white;
     font-family: 'Inter', sans-serif;
     font-size: 14px;
+    text-align: center;
     background-color: rgba(8, 64, 62, 0.5);
     padding: 25px;
-    height: 50px;
-    width: 246px;
+    height: 20px;
+    width: 200px;
 }
 
 .contato{
     color: white;
     font-family: 'Inter', sans-serif;
     font-size: 14px;
+    text-align: center;
+    background-color: rgba(8, 64, 62, 0.5);
+    padding: 25px;
+    height: 20px;
+    width: 200px;
+}
+
+
+.contato1{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    text-align: center;
     background-color: rgba(8, 64, 62, 0.5);
     padding: 25px;
     height: 50px;
-    width: 246px;
+    width: 200px;
 }
 
 .atendimento{
     color: white;
     font-family: 'Inter', sans-serif;
     font-size: 14px;
+    text-align: center;
     background-color: rgba(8, 64, 62, 0.5);
     padding: 25px;
-    height: 50px;
-    width: 246px;
+    height: 20px;
+    width: 200px;
+}
+
+.atendimento1{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    text-align: left;
+    background-color: rgba(8, 64, 62, 0.5);
+    padding: 25px;
+    height: 100px;
+    width: 200px;
 }
 
 .ondeestamos{
@@ -208,9 +236,9 @@ footer{
     font-family: 'Inter', sans-serif;
     font-size: 14px;
     background-color: rgba(8, 64, 62, 0.5);
+    text-align: center;
     padding: 25px;
-    height: 50px;
-    width: 246px;
+    width: 200px;
 }
 
 .redessociais{
@@ -218,10 +246,131 @@ footer{
     font-family: 'Inter', sans-serif;
     font-size: 14px;
     background-color: rgba(8, 64, 62, 0.5);
+   text-align: center;
     padding: 25px;
-    height: 50px;
-    width: 246px;
+    height: 17px;
+    width: 200px;
 }
+.footer{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    top: 180px;
+    left: 0px;
+}
+
+.coluna1 {
+
+    position: relative;
+    width: 100px;
+    height: 100px;
+    top: 40px;
+    left: 20px;
+}
+.coluna1-1 {
+
+    position: relative;
+    width: 100px;
+    height: 100px;
+    top: 20px;
+    left: 20px;
+}
+
+.coluna1-2 {
+
+    position: relative;
+    width: 100px;
+    height: 100px;
+    top: 0px;
+    left: 20px;
+}
+
+.coluna1-3 {
+
+    position: relative;
+    width: 100px;
+    height: 100px;
+    top: -20px;
+    left: 20px;
+}
+.coluna2 {
+
+        position: relative;
+        width: 100px;
+        height: 100px;
+        top: -360px;
+        left: 280px;
+}
+
+.coluna2-1 {
+
+    position: relative;
+    width: 100px;
+    height: 100px;
+    top: -380px;
+    left: 280px;
+}
+
+.coluna3{
+
+    position: relative;
+    width: 100px;
+    height: 100px;
+    top: -560px;
+    left: 540px;
+}
+
+.coluna3-1 {
+
+    position: relative;
+    width: 100px;
+    height: 100px;
+    top: 10px;
+    left: 0px;
+}
+
+.coluna4 {
+
+    position: relative;
+    width: 100px;
+    height: 100px;
+    top: -170px;
+    left: 260px;
+
+}
+.mapa{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    top: -190px;
+    left: 265px;
+}
+
+.coluna5 {
+
+    position: relative;
+    width: 100px;
+    height: 100px;
+    top: -370px;
+    left: 520px;
+}
+
+.redessociais2 {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    top: -360px;
+    left: 580px;
+}
+
+.redessociais3 {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    top: -460px;
+    left: 650px;
+}
+
 
 .fundo{
     background-color: black;
