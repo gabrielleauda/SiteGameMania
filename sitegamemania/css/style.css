@@ -67,6 +67,14 @@
     
 }
 
+.logoGame{
+    width: 80%;
+}
+
+#botoes2{
+    display: none;
+}
+
 .cabecalho {
     display: flex;
     justify-content: space-between;
@@ -125,18 +133,15 @@ header{
 }
 
 .banner {
-    position: relative;
-    
-    height: 110vh;
-    width: 100%;
-    background-image: url(../img/stray.png);    
-    background-repeat: no-repeat;
-    background-position: center;
+    position: absolute;
+    right: 0px;
+    height: auto;
+    width: 100vw;
 }  
 
 .vejamais-banner {
     position: relative;
-    top: 640px;
+    top: 620px;
     right: 2vh;
 }
  
@@ -155,6 +160,11 @@ header{
 
 
 /* começo da loja */
+
+.comecoLoja{
+    display: flexbox;
+    height: 700px;
+}
 
  .loja{
     display: flex;
@@ -246,23 +256,10 @@ header{
     left: 80px;
 }
 
-
-
-
-
-
-.eldenring{
-    height: 110vh;
-    width: 100%;
-    background-image: url(../img/elden\ ring.png);    
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
 .botaocompreaqui{
     position: relative;
     width: 10vw;
-    top: 570px;
+    top: 540px;
     left: 87vw;
     text-align: center;
 }
@@ -281,7 +278,7 @@ header{
 .logofinal{
     text-align: center;
     position: relative;
-    top: 100px;
+    top: 600px;
     left: 0px;
 }
 
@@ -293,7 +290,8 @@ header{
 footer{
     background-color: black;
     width: 100%;
-    height: 560px;
+    height: 1000px;
+    top: 200px;
 }
 
 .row {
@@ -381,7 +379,7 @@ footer{
     position: relative;
     width: 100px;
     height: 100px;
-    top: 180px;
+    top: 650px;
     left: 10px;
     justify-content: space-between;
 }
@@ -476,14 +474,40 @@ footer{
         
     }
 
+    #botoes2{
+        display: none;
+    }
+
+    .logoGame{
+        width: 80%;
+    }
     .banner{
-        height: ;
+        position: absolute;
         width: 100%;
+    }
+
+    .vejamais-banner {
+        position: relative;
+        top: 280px;
+        right: 0vh;
+    }
+
+    .vejamais-banner a{
+        font-size: 15px;
+    }
+
+    .comecoLoja{
+        display: flexbox;
+        height: 500px;
     }
 
     .links {
         position: relative;
         left: 10px;
+    }
+    
+    .loja h1{
+        font-size: 25px;
     }
 
     .menu {
@@ -500,6 +524,26 @@ footer{
         justify-content: space-around;
         align-items: center;
         background-color: black;
+    }
+    .comecoDados{
+        position: relative;
+        top:330px;
+    }
+    
+    .comecoFooter{
+        position: relative;
+        width: 100px;
+        height: 100px;
+        top: 300px;
+        left: 0px;
+        justify-content: space-between;
+    }
+    .botaocompreaqui{
+        position: relative;
+        width: 10vw;
+        top: 370px;
+        left: 87vw;
+        text-align: center;
     }
     
     #caixaSearch{
@@ -544,7 +588,7 @@ footer{
     footer{
         background-color: black;
         width: 100%;
-        height: 250vh;
+        height: 300vh;
     }
 
     .footer{
@@ -576,6 +620,7 @@ footer{
     }
     #colunasDesktop{
         display: none;
+        top:500px;
     }
   
     .column {
@@ -598,7 +643,7 @@ footer{
 
     position: relative;
     top: 3vh;
-    right: 4vh;
+    left: 0px;
 }
 
 .contato{
@@ -609,11 +654,11 @@ footer{
     background-color: rgba(8, 64, 62, 0.5);
     padding: 25px;
     height: 1vh;
-    width: auto;
+    width: 310px;
 
     position: relative;
     top: 3vh;
-    right: 4vh;
+    left: 0px;
 }
 
 
@@ -625,11 +670,11 @@ footer{
     background-color: rgba(8, 64, 62, 0.5);
     padding: 25px;
     height: auto;
-    width: auto;
+    width: 310px;
 
     position: relative;
     top: 3vh;
-    right: 4vh;
+    left: 0px;
 }
 
 .atendimento{
@@ -640,11 +685,11 @@ footer{
     background-color: rgba(8, 64, 62, 0.5);
     padding: 25px;
     height: 1vh;
-    width: 100vw;
+    width: 99vw;
 
     position: relative;
     top: -0vh;
-    right: 4vh;
+    left: -9px;
 }
 
 .atendimento1{
@@ -655,11 +700,11 @@ footer{
     background-color: rgba(8, 64, 62, 0.5);
     padding: 25px;
     height: auto;
-    width: 100vw;
+    width: 99vw;
 
     position: relative;
     top: 2vh;
-    right: 4vh;
+    left:-4px;
 }
 
 .ondeestamos{
@@ -669,11 +714,11 @@ footer{
     background-color: rgba(8, 64, 62, 0.5);
     text-align: center;
     padding: 25px;
-    width: 100%;
+    width: 1020px;
 
     position: relative;
-    right: 5vh;
-    top: 0vh;
+    left: -10px;
+    top: 0;
 }
 
 .redessociais{
@@ -684,10 +729,10 @@ footer{
     text-align: center;
     padding: 25px;
     height: 1vh;
-    width: 100vw;
+    width: 1020px;
     position: relative;
     top: 0vh;
-    right: 4vh;
+    left: -10px;
 }
 
 
@@ -705,6 +750,7 @@ footer{
 	margin: 40px;
 	background: none;
     top: -1vh;
+    left: 200px;
 
 }
 
@@ -721,7 +767,325 @@ footer{
     position: relative;
     width: 20vw;
     height: 40vh;
-     left: 30vw;
-     top: 5vh;
+     left: 35vw;
+     top: 3vh;
+}
+}
+
+@media screen and (max-width: 428px) {
+    .container-fluid {
+        width: 90vw;
+        margin: 0 auto;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #barras {
+        display: inline-block;
+        
+    }
+
+    .logoGame{
+        width: 50%;
+    }
+    #botoes{
+        display: none;
+    }
+
+    #botoes2{
+        display:block;
+    }
+
+    .botoes2{
+        top: 0px;
+        left: 40px;
+    }
+
+    .banner{
+        position: absolute;
+        width: 100%;
+    }
+
+    .vejamais-banner {
+        position: relative;
+        top: 180px;
+        right: -20px;
+    }
+
+    .vejamais-banner a{
+        font-size: 15px;
+    }
+
+    .comecoLoja{
+        display: flexbox;
+        height: 200px;
+    }
+
+    .links {
+        position: relative;
+        left: 10px;
+    }
+    
+    .loja h1{
+        font-size: 25px;
+    }
+
+    .menu {
+        display: none;
+
+        position: absolute;
+        top: 50px;
+        right:10px;
+
+        height: 300px;
+        width: 100vw;
+
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        background-color: black;
+    }
+    .comecoDados{
+        position: relative;
+        top:20px;
+    }
+    
+    .comecoFooter{
+        position: relative;
+        width: 100px;
+        height: 100px;
+        top: 5px;
+        left: 0px;
+        justify-content: space-between;
+    }
+    .botaocompreaqui{
+        position: relative;
+        top: 100px;
+        left: 80vw;
+        text-align: center;
+    }
+    
+    #caixaSearch{
+        display: none;
+    }
+
+
+    #caixaSearch2 {
+        display: grid;
+
+    }
+
+    .caixaSearch2{
+
+        position: relative;
+
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+
+        top: 100px;
+    }
+
+    #logofinal{
+        display: none;
+    }
+
+    #logofinal2 {
+        display: grid;
+    }
+    
+    .logofinal2{
+         position: absolute;
+
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+
+        top: 200vh;
+    }
+
+    footer{
+        background-color: black;
+        width: 100%;
+        height: 270vh;
+    }
+
+    .footer{
+        position: relative;
+        width: 100px;
+        height: auto;
+        top: 180px;
+        left: 10px;
+        justify-content: space-between;
+    }
+
+    #flechas{
+        display: none;
+    }
+
+    #botaoVermais {
+        display: grid;
+    }
+
+    .botaoVermais{
+        position: relative;
+
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+
+       top: -50px;
+
+    }
+    #colunasDesktop{
+        display: none;
+        top:500px;
+    }
+  
+    .column {
+        flex-direction: column;
+    }
+
+   #colunasIpad{
+    display:contents;
+   }
+
+   .dados{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    background-color: rgba(8, 64, 62, 0.5);
+    padding: 25px;
+    height: 1vh;
+    width: 420px;
+
+    position: relative;
+    top:230px;
+    left: 0px;
+}
+
+.contato{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    background-color: rgba(8, 64, 62, 0.5);
+    padding: 25px;
+    height: 1vh;
+    width: 420px;
+
+    position: relative;
+    top: -210px;
+    left: 0px;
+}
+
+
+.contato1{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    text-align: left;
+    background-color: rgba(8, 64, 62, 0.5);
+    padding: 25px;
+    height: auto;
+    width: 420px;
+
+    position: relative;
+    top: -200px;
+    left: 0px;
+}
+
+.atendimento{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    background-color: rgba(8, 64, 62, 0.5);
+    padding: 25px;
+    height: 1vh;
+    width: 420px;
+
+    position: relative;
+    top: -0vh;
+    left: -9px;
+}
+
+.atendimento1{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    background-color: rgba(8, 64, 62, 0.5);
+    padding: 25px;
+    height: auto;
+    width: 420px;
+
+    position: relative;
+    top: 2vh;
+    left:-4px;
+}
+
+.ondeestamos{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    background-color: rgba(8, 64, 62, 0.5);
+    text-align: center;
+    padding: 25px;
+    width: 420px;
+
+    position: relative;
+    left: -10px;
+    top: 0;
+}
+
+.redessociais{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    background-color: rgba(8, 64, 62, 0.5);
+    text-align: center;
+    padding: 25px;
+    height: 1vh;
+    width: 420px;
+    position: relative;
+    top: 0vh;
+    left: -10px;
+}
+
+
+
+.item {
+	position: relative;
+    align-items: center;
+	
+}
+
+.item1 {
+	position: relative;
+    justify-items: center;
+	flex: 2;
+	margin: 40px;
+	background: none;
+    top: -1vh;
+    left: 10px;
+
+}
+
+.item2 {
+	position: relative;
+    justify-items: center;
+	flex: 2;
+	margin: 40px;
+	background: none;
+    top: -1vh;
+}
+
+.mapa{
+    position: relative;
+    width: 20vw;
+    height: 40vh;
+     left: 20vw;
+     top: 3vh;
 }
 }

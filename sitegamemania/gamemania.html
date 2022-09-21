@@ -19,7 +19,7 @@
          
                 <nav class="container-grid cabecalho">
                      <div class="container-grid cabecalho">
-                         <a href="gamemania.html"><img src="img/icone pagina.png" alt="Logo Game Mania" width="80%"></a>
+                         <a href="gamemania.html"><img src="img/icone pagina.png" class="logoGame"></a>
 
                             <form action="O q" method="post">
                                 
@@ -27,9 +27,16 @@
                                 <input type="search" onClick="Search" id="busca" name="palavra" value="" Placeholder="O que você está procurando?"></input>
                                 </div>
                             </form>
-                            <div class="botoes">
+                            <div id="botoes">
                                 <a class="btn btn-gmania btn-lg" href= "login.html" role="button" >Entrar</button></a>
                                 <a class="btn btn-gmania btn-lg" href="#" role="button">Cadastre-se</a>
+                            </div>
+
+                            <div class="botoes2">
+                                <div id="botoes2">
+                                    <a class="btn btn-gmania btn-sm" href= "login.html" role="button" >Entrar</button></a>
+                                    <a class="btn btn-gmania btn-sm" href="#" role="button">Cadastre-se</a>
+                                </div>
                             </div>
                      </div>
                     <br>
@@ -52,12 +59,14 @@
             <main>
                 <section class="banner">
                     <div class="container-fluid">
+                        <img src="img/stray.png" class="banner">
                         <div class="vejamais-banner">
                             <a href= "#">Veja mais</a>
                         </div>
                     </div>
                 </section>
 
+            <section class="comecoLoja"></section>
                 <section class="loja"> 
                   <h1> O que você mais deseja está aqui </h1>
                 </section>
@@ -113,7 +122,7 @@
                     </div>
 
                     <div class="teclado">
-                        <a class="" href="#"><img src="img/teclado foto.png"  alt="Teclado" width="200px">
+                        <a class="" href="#"><img src="img/teclado foto.png" class="img-fluid" alt="Teclado" width="200px">
                         <div class="conteudo-loja-textos">
                             <div class="box">
                              <h2>Teclado Mecânico Gamer HyperX Mars RGB, Switch Outemu Blue, US...</h2>
@@ -132,9 +141,10 @@
 
                 </div>
             </section>
-            <br><br>
+        </section><br><br>
 
                 <section class="eldenring">
+                    <img src="img/elden ring.png" class="banner">
                     <a class="btm" href="#" role="button">
                         <div class="botaocompreaqui"> 
                             <p>Compre aqui</p>
@@ -143,24 +153,26 @@
                     </a>
                     
                 </section>
+                <section class="comecoDados">
+                    <section class="search container-fluid">
+                        <form action="O q" method="post">
+                                        
+                            <div id="caixaSearch2" class="caixaSearch2">  
+                            <input type="search" id="busca" name="palavra" value="" Placeholder="O que você está procurando?"></input>
+                            </div>
+                        </form>
+                    </section>
 
-                <section class="search container-fluid">
-                    <form action="O q" method="post">
-                                    
-                        <div id="caixaSearch2" class="caixaSearch2">  
-                        <input type="search" id="busca" name="palavra" value="" Placeholder="O que você está procurando?"></input>
-                        </div>
-                    </form>
+                    <section id="logofinal" class="logofinal">
+                        <a href="gamemania.html"><img src="img/logo.png" alt="Logo rodapé"></a>
+                    </section>
                 </section>
 
-                <section id="logofinal" class="logofinal">
-                    <a href="gamemania.html"><img src="img/logo.png" alt="Logo rodapé"></a>
-                </section>
             </div>
             </main>
             <footer>
                     <div class="footer">
-                        <div class="container-fluid d-flex bd-highlight">
+                        <div class="d-flex bd-highlight">
                                 <section id="colunasDesktop" class="container1">
                                     <section class="container2 column">
                                             <a class="item dados" href= "#">Minha Conta</a>
@@ -213,7 +225,8 @@
                                     </section> 
                                 </section>
 
-                                <div class="container-fluid d-flex bd-highlight">
+                                <div class="comecoFooter">
+                                    <div class="d-flex bd-highlight">
                                     <section id="colunasIpad" class="container1">
 
                                         <section class="colunasIpad">
@@ -265,11 +278,11 @@
                                         </section>
                 
                                 
-                                <section id="logofinal2" class="logofinal2 container-fluid">
-                                    <a href="gamemania.html"><img src="img/logo.png" alt="Logo rodapé"></a>
-                                </section>
-
-                            </div>      
+                                        <section id="logofinal2" class="logofinal2 container-fluid">
+                                            <a href="gamemania.html"><img src="img/logo.png" alt="Logo rodapé"></a>
+                                        </section>
+                                </div> 
+                            </div>     
                     </div>
                 </footer>
             <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
