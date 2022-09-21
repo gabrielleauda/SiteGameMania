@@ -67,6 +67,7 @@
     
 }
 
+
 .logoGame{
     width: 80%;
 }
@@ -271,6 +272,10 @@ header{
     text-align: center;
 }
 
+#botaocompreaqui2{
+    display: none;
+}
+
 #caixaSearch2 {
     display: none;
 }
@@ -460,7 +465,7 @@ footer{
     text-decoration: none;
 }
 
-
+ 
 
 @media screen and (max-width: 1024px) {
     .container-fluid {
@@ -488,7 +493,7 @@ footer{
 
     .vejamais-banner {
         position: relative;
-        top: 280px;
+        top: 450px;
         right: 0vh;
     }
 
@@ -550,6 +555,9 @@ footer{
         display: none;
     }
 
+    #botaocompreaqui2{
+        display: none;
+    }
 
     #caixaSearch2 {
         display: grid;
@@ -714,7 +722,7 @@ footer{
     background-color: rgba(8, 64, 62, 0.5);
     text-align: center;
     padding: 25px;
-    width: 1020px;
+    width: 99vw;
 
     position: relative;
     left: -10px;
@@ -729,7 +737,7 @@ footer{
     text-align: center;
     padding: 25px;
     height: 1vh;
-    width: 1020px;
+    width: 99vw;
     position: relative;
     top: 0vh;
     left: -10px;
@@ -779,6 +787,21 @@ footer{
         flex-wrap: wrap;
         justify-content: center;
     }
+    .container-grid{
+        display: flex;
+        width:90%;
+        margin: 0 auto;
+        flex-wrap: wrap;
+        
+    }
+    .cabecalho {
+        display: flex;
+        justify-content: space-between;
+        height: 100px;
+        width: 98%;
+        align-items: center;
+    }
+    
     #barras {
         display: inline-block;
         
@@ -787,18 +810,27 @@ footer{
     .logoGame{
         width: 50%;
     }
-    #botoes{
-        display: none;
-    }
 
-    #botoes2{
-        display:block;
-    }
+   #botoes{
+    display: none;
+   }
 
-    .botoes2{
-        top: 0px;
-        left: 40px;
-    }
+   #botoes2{
+    display: flex;
+   }
+
+   .botoes2{
+    position: absolute;
+    top: 40px;
+    right: 10px;
+   }
+
+   .icone-menu{
+    position: absolute;
+    width: 40px;
+    left: -15px;
+    top: 0px;
+   }
 
     .banner{
         position: absolute;
@@ -817,7 +849,7 @@ footer{
 
     .comecoLoja{
         display: flexbox;
-        height: 200px;
+        height: 170px;
     }
 
     .links {
@@ -825,9 +857,66 @@ footer{
         left: 10px;
     }
     
+
     .loja h1{
-        font-size: 25px;
+        font-size: 15px;
     }
+
+    #fotosLoja{
+        width: 135px;
+    }
+    .produtos{
+        position: relative;
+        height: 800px;
+        top:400px;
+    }
+
+   
+    .box{
+        background-color: rgba(8, 64, 62, 0.5);
+        padding: 25px;
+        height: 150px;
+        width: 60%;
+        position: relative;
+        top:10px
+    }
+
+    .box H2{
+        position: relative;
+        top: -30px;
+        font-size: 11px;
+    }
+
+    .box p{
+        position: relative;
+        top: -30px;
+        font-size: 12px;
+    }
+    .produtos01{
+
+        display: flex;
+        justify-content: space-between;
+        width: 70%;
+        align-items: center;
+     }
+
+     .xbox{
+        position: relative;
+        left: 160px;
+        top: -380px;
+     }
+
+     .tela{
+        position: relative;
+        top: -400px;
+        left: -22px;
+     }
+
+     .teclado{
+        position: relative;
+        top: -780px;
+        left: 160px;
+     }
 
     .menu {
         display: none;
@@ -933,8 +1022,22 @@ footer{
        justify-content: center;
        align-items: center;
 
-       top: -50px;
+       top: -860px;
 
+    }
+    #botaocompreaqui2{
+        position: relative;
+        display: grid;
+        top:10px;
+        left: 20px;
+    }
+
+    .botaocompreaqui p{
+        font-size: 11px;
+    }
+
+    #botaocompreaqui{
+        display: none;
     }
     #colunasDesktop{
         display: none;
@@ -961,7 +1064,7 @@ footer{
 
     position: relative;
     top:230px;
-    left: 0px;
+    left: -26px;
 }
 
 .contato{
@@ -976,7 +1079,7 @@ footer{
 
     position: relative;
     top: -210px;
-    left: 0px;
+    left: -26px;
 }
 
 
@@ -992,7 +1095,7 @@ footer{
 
     position: relative;
     top: -200px;
-    left: 0px;
+    left: -26px;
 }
 
 .atendimento{
